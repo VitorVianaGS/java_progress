@@ -13,7 +13,7 @@ public class Aula05EstruturasCondicionais01 {
             System.out.println("Não autorizado a comprar bebida!");
         }
         // quando for usar uma estrutura condicional if, é obrigatório usar uma expressão que retorne true ou false.
-        // if (idade); vai dar erro
+        // if (idade); vai dar erro.
 
         boolean c = false;
         if (c == true) {

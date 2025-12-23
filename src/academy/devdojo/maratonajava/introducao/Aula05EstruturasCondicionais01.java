@@ -17,7 +17,7 @@ public class Aula05EstruturasCondicionais01 {
 
         boolean c = false;
         if (c == true) {
-            System.out.println("Algo que nunca deve ser feito");
+            System.out.println("Algo que nunca deve ser feito!") ;
         }
     }
 }

@@ -1,9 +1,18 @@
 package academy.devdojo.maratonajava.javacore.introducaoclasses.test;
 
-import academy.devdojo.maratonajava.javacore.introducaoclasses.domain.Pessoa;
+import academy.devdojo.maratonajava.javacore.introducaoclasses.domain.Estudante;
 
-public class PessoaTest01 {
+public class EstudanteTeste01 {
     static void main(String[] args) {
-        Estudante
+        Estudante estudante = new Estudante();
+
+        estudante.nome = "Luffy";
+        estudante.idade = 18;
+        estudante.sexo = 'M';
+
+        System.out.println(estudante.nome);
+        System.out.println(estudante.idade);
+        System.out.println(estudante.sexo);
+        System.out.println(estudante);
     }
 }

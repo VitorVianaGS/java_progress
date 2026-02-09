@@ -8,5 +8,9 @@ public class CalculadoraTest03 {
         double result = calculadora.divideDoisNumeros(20, 2);
         System.out.println(result);
         System.out.println(calculadora.divideDoisNumeros(20, 0));
+
+        System.out.println(calculadora.divideDoisNumeros2(20, 0));
+
+        calculadora.divideDoisNumeros3(86, 0);
     }
 }

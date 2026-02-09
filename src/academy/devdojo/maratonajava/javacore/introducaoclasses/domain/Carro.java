@@ -1,0 +1,9 @@
+package academy.devdojo.maratonajava.javacore.introducaoclasses.domain;
+
+public class Carro {
+    public String nome;
+    public String modelo;
+    public int ano;
+    public String cor;
+    public String tipo;
+}

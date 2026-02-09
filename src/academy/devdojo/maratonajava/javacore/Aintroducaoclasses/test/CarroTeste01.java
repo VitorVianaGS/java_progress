@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.introducaoclasses.test;
+package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.test;
 
-import academy.devdojo.maratonajava.javacore.introducaoclasses.domain.Carro;
+import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.domain.Carro;
 
 public class CarroTeste01 {
     static void main(String[] args) {
@@ -14,6 +14,8 @@ public class CarroTeste01 {
         carro2.nome = "Chevrolet";
         carro2.modelo = "Camaro";
         carro2.ano = 2024;
+
+        carro2 = carro;
 
         System.out.println("Carro 1");
         System.out.println(carro.nome);
